@@ -1,4 +1,16 @@
+= javascript_include_tag '/assets/maps/OpenLayers'
+= javascript_include_tag '/assets/maps/locations'
+
 %h1.title All Locations of Interest
+
+.map
+  %div#map
+  %input#locations{:type => "hidden", :value => @locations_json}
+  = javascript_include_tag '/assets/maps/OpenLayers'
+  = javascript_include_tag '/assets/maps/locations'
+  :javascript
+    initMap($("#locations").val());
+
 
 %table#table
   %thead
@@ -12,7 +24,7 @@
   %tbody
     - @locations.each do |location|
       %tr
-        %td= location.name
+        %td= link_to location.name, location_path(location)
         %td= location.latitude
         %td= location.longitude
         %td= location.description
@@ -23,4 +35,13 @@
 
 %p=link_to "Create new location", new_location_path
 
-%p=link_to "Delete all", destroy_all_locations_path, :method => :get, :confirm => 'Are you sure?'
+%p=link_to "Delete all", destroy_all_locations_path, :method => :post, :confirm => 'Are you sure?'
+
+%p=link_to "Input Coordinate", locations_input_path
+
+%p=link_to "Convexe Hull", locations_convex_path
+
+%p=link_to "Upload Json", locations_upload_path
+
+
+

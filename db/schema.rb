@@ -11,13 +11,28 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120927210553) do
+ActiveRecord::Schema.define(:version => 20121022184616) do
+
+  create_table "gps_samples", :force => true do |t|
+    t.float    "latitude",   :limit => 53, :null => false
+    t.float    "longitude",  :limit => 53, :null => false
+    t.datetime "created_at",               :null => false
+    t.datetime "updated_at",               :null => false
+    t.integer  "user_id"
+    t.integer  "file"
+    t.datetime "time"
+  end
 
   create_table "locations", :force => true do |t|
     t.float  "latitude",    :limit => 53, :null => false
     t.float  "longitude",   :limit => 53, :null => false
     t.string "name"
     t.string "description"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string  "name", :null => false
+    t.integer "edad"
   end
 
 end

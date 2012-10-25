@@ -1,11 +1,14 @@
 Analysistool::Application.routes.draw do
-  get "locations/index"
+  get "locations/input"
+  post "locations/input"
+  get "locations/convex"
+  get "locations/upload"
+  post "locations/upload"
 
-  get "locations/new"
 
-  get "locations/show"
-
-  get "locations/edit"
+  get "users/upload"
+  post "users/upload"
+  get "users/test"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -26,6 +29,9 @@ Analysistool::Application.routes.draw do
       get :destroy_all
     end
   end
+
+  resources :users
+
 
   # Sample resource route with options:
   #   resources :products do
