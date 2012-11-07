@@ -92,4 +92,44 @@ class UsersController < ApplicationController
   end
 
 
+  def uploadAC
+
+    if !params[:file].nil?
+      @file=params[:file]
+
+      #validar que sean archivos .json
+      chkNameFile=@file.original_filename.split(/\./)
+      if chkNameFile[1]=="json"
+        #guardar el archivo en un archivo temporar
+        f = @file.tempfile.to_path
+
+        mylocJson = JSON.parse(File.read(f))
+        mylocJson.each do |l1|
+          @activity_count = ActivityCount.new("count"=>l1["count"],
+                                              "time"=>l1["timestamp"],
+                                              "user_id"=>l1["userID"])
+          @activity_count.save!
+          id=l1["userID"]
+        end
+
+        @activity_counts = ActivityCount.find_all_by_user_id(id)
+        @counts = @activity_counts.to_json
+
+
+
+      else
+        redirect_to users_uploadAC_path(params[:id]), notice: 'Just .json Files.'
+      end
+    end
+
+  end
+
+
+  def showAC
+    #@user = User.find(params[:id])
+    @activity_counts = ActivityCount.find_all_by_user_id(params[:id])
+
+  end
+
+
 end

@@ -8,6 +8,13 @@ Analysistool::Application.routes.draw do
 
   get "users/upload"
   post "users/upload"
+
+  get "users/uploadAC"
+  post "users/uploadAC"
+
+  get "users/showAC"
+
+
   get "users/test"
 
   # The priority is based upon order of creation:

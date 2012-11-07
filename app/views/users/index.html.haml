@@ -21,14 +21,17 @@
    %tr
     %td= user.name
     %td= user.edad
-    %td= link_to "Upload_Json", users_upload_path(:id=> user.id)
+    %td= link_to "Upload_Gps", users_upload_path(:id=> user.id)
+    %td= link_to "Show Activity Counts", users_showAC_path(:id=> user.id)
     %td= link_to "Delete", user_path(user), :method => :delete, :confirm => 'Are you sure?'
+
 
 %p= show_flash
 
+%p=link_to "Upload Activity Counts", users_uploadAC_path
+
 %p=link_to "Create new User", new_user_path
 
-%p=link_to "Animation", users_test_path
 
 
 
