@@ -148,31 +148,4 @@ class UsersController < ApplicationController
   end
 
 
-  def graph_code
-
-    @activity_counts = ActivityCount.find_all_by_user_id(1)
-    @x=[]
-    @y=[]
-    @activity_counts.each do |ac|
-      if ac["count"]> 6000
-        @x[@x.length]=ac["count"]
-        @y[@y.length]=ac["time"]
-
-      end
-
-    end
-
-  #  title = Title.new("ACTIVITY COUNT")
-  #  bar = BarGlass.new
-  #  bar.set_values(@x)
-   # chart = OpenFlashChart.new
-    #chart.set_title(title)
-    #chart.add_element(bar)
-
-
-
-
-   #  render :text => chart.to_s
-  end
-
 end
