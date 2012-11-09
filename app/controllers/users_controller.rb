@@ -1,4 +1,8 @@
+require 'json'
+
 class UsersController < ApplicationController
+
+  respond_to :html, :json
 
   def index
     # get all users in the table locations
@@ -112,6 +116,7 @@ class UsersController < ApplicationController
           id=l1["userID"]
         end
 
+
         @activity_counts = ActivityCount.find_all_by_user_id(id)
         @counts = @activity_counts.to_json
 
@@ -127,9 +132,47 @@ class UsersController < ApplicationController
 
   def showAC
     #@user = User.find(params[:id])
-    @activity_counts = ActivityCount.find_all_by_user_id(params[:id])
 
+    @activity_counts = ActivityCount.find_all_by_user_id(params[:id])#ActivityCount.find_all_by_user_id(params[:id])
+    @x=Array.new
+    @activity_counts.each do |ac|
+      if ac[:count] != -1
+     @x.push(ac[:count])
+        end
+    end
+    @id=params[:id]
+
+    respond_with(@x)
+
+    #@graph = open_flash_chart_object(1000,300, '/users/graph_code')
   end
 
+
+  def graph_code
+
+    @activity_counts = ActivityCount.find_all_by_user_id(1)
+    @x=[]
+    @y=[]
+    @activity_counts.each do |ac|
+      if ac["count"]> 6000
+        @x[@x.length]=ac["count"]
+        @y[@y.length]=ac["time"]
+
+      end
+
+    end
+
+  #  title = Title.new("ACTIVITY COUNT")
+  #  bar = BarGlass.new
+  #  bar.set_values(@x)
+   # chart = OpenFlashChart.new
+    #chart.set_title(title)
+    #chart.add_element(bar)
+
+
+
+
+   #  render :text => chart.to_s
+  end
 
 end

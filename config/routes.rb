@@ -13,6 +13,7 @@ Analysistool::Application.routes.draw do
   post "users/uploadAC"
 
   get "users/showAC"
+  get "users/graph_code"
 
 
   get "users/test"

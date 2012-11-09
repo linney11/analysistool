@@ -1,4 +1,10 @@
-%h1.title Upload File Json
+%h1.title Show AC
+
+%input#id{:type => "hidden", :value => @id}
+
+
+.container
+ %div#container
 
 %table#table
  %thead
@@ -16,5 +22,9 @@
 %p= show_flash
 
 %p= link_to 'Back to users list', users_path
+
+= javascript_include_tag 'http://code.highcharts.com/stock/highstock.js'
+= javascript_include_tag 'http://code.highcharts.com/stock/modules/exporting.js'
+
 
 

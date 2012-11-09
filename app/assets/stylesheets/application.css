@@ -34,6 +34,11 @@ div#map {
 
 }
 
+div#container{
+    min-width:400px;
+    height: 400px;
+    margin: 0 auto;
+}
 a {
     background: transparent;
     color: black;
@@ -120,3 +125,7 @@ form textarea {
 label#position {
     font-size: 10px;
 }
+
+
+
+
