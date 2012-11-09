@@ -96,7 +96,7 @@ class UsersController < ApplicationController
   end
 
 
-  def uploadAC
+  def showAllAC
 
     if !params[:file].nil?
       @file=params[:file]
@@ -133,7 +133,7 @@ class UsersController < ApplicationController
   def showAC
     #@user = User.find(params[:id])
 
-    @activity_counts = ActivityCount.find_all_by_user_id(params[:id])#ActivityCount.find_all_by_user_id(params[:id])
+    @activity_counts = ActivityCount.find_all_by_user_id(params[:id])
     @x=Array.new
     @activity_counts.each do |ac|
       if ac[:count] != -1
@@ -147,5 +147,29 @@ class UsersController < ApplicationController
     #@graph = open_flash_chart_object(1000,300, '/users/graph_code')
   end
 
+  def showAllAC
+    @activity_counts = ActivityCount.all
+
+    @x=Array.new
+    @id = Array.new
+    @activity_counts.each do |ac|
+      if ac[:count] != -1
+        @x.push(ac[:count])
+      end
+    end
+
+    @users=User.all
+
+    @users.each do |u|
+      @id.push(u[:id])
+    end
+
+    @id = @id.to_s.gsub!("[","")
+    @id = @id.to_s.gsub!("]","")
+
+
+    respond_with(@x)
+
+  end
 
 end

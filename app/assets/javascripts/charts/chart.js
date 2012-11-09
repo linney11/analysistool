@@ -12,12 +12,12 @@ $(function() {
     var seriesOptions = [],
         yAxisOptions = [],
         seriesCounter = 0,
-        names = [id],
+        names = id.split(","),
         colors = Highcharts.getOptions().colors;
 
     $.each(names, function(i, name) {
 
-        $.getJSON('http://localhost:3000/users/showAC?id='+id+'.json', function(data) {
+        $.getJSON('http://localhost:3000/users/showAC?id='+name+'.json', function(data) {
 
             seriesOptions[i] = {
                 name: name,
