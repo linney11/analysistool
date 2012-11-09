@@ -1,77 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bad3602-3c59-49cf-b150-cee4a0d1d471" name="Default" comment="removed tables from views (bad practice), except for index">
-      <change type="DELETED" beforePath="C:\Sites\analysistool\app\assets\javascripts\swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\open-flash-chart.swf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\public\open-flash-chart.swf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\public\swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\MIT-LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\README" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\Rakefile" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\assets\javascripts\swfobject.js" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\assets\open-flash-chart-bar-clicking.swf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\assets\open-flash-chart.swf" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\init.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\install.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\area_base.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\area_hollow.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\area_line.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\arrow.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\background.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\bar.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\bar_3d.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\bar_base.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\bar_filled.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\bar_glass.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\bar_sketch.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\bar_stack.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\base.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\candle.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\chart.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\dot_base.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\h_bar.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\legend.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\line.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\line_base.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\line_dot.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\line_hollow.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\line_style.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\linear_regression.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\menu.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\ofc_ajax.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\open_flash_chart_object.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\pie.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\radar_axis.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\radar_axis_labels.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\radar_spoke_labels.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\scatter.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\scatter_line.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\shape.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\sugar.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\tags.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\title.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\tooltip.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\upload_image.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\x_axis.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\x_axis_label.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\x_axis_labels.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\x_legend.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\y_axis.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\y_axis_base.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\y_axis_label.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\y_axis_labels.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\y_axis_right.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\y_legend.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\lib\open_flash_chart\y_legend_right.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\tasks\open_flash_chart_tasks.rake" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\test\open_flash_chart_test.rb" afterPath="" />
-      <change type="DELETED" beforePath="C:\Sites\analysistool\vendor\plugins\open_flash_chart-master\uninstall.rb" afterPath="" />
-      <change type="MOVED" beforePath="C:\Sites\analysistool\app\assets\javascripts\char.js" afterPath="$PROJECT_DIR$/app/assets/javascripts/charts/chart.js" />
+    <list default="true" id="7bad3602-3c59-49cf-b150-cee4a0d1d471" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/users_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/locations/index.html.haml" afterPath="$PROJECT_DIR$/app/views/locations/index.html.haml" />
     </list>
     <ignored path="analysistool.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -126,7 +57,7 @@
       <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/users/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="14" selection-start="708" selection-end="708" vertical-scroll-proportion="0.7988722">
+            <state line="32" column="14" selection-start="708" selection-end="708" vertical-scroll-proportion="1.2463343">
               <folding />
             </state>
           </provider>
@@ -661,7 +592,11 @@
       <created>1349897991034</created>
       <updated>1349897991034</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="removed tables from views (bad practice), except for index">
+      <created>1352424867630</created>
+      <updated>1352424867630</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -689,21 +624,21 @@
     <editor active="false" />
     <layout>
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761577" sideWeight="0.4969697" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761577" sideWeight="0.4909091" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32761577" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19545455" sideWeight="0.6723842" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761577" sideWeight="0.4909091" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761577" sideWeight="0.49772727" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39848486" sideWeight="0.18421052" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57471263" sideWeight="0.49359658" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21546052" sideWeight="0.47878787" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19469696" sideWeight="0.6723842" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39848486" sideWeight="0.18421052" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761577" sideWeight="0.49772727" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22203948" sideWeight="0.48030302" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57471263" sideWeight="0.49359658" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21546052" sideWeight="0.47878787" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -857,7 +792,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="14" selection-start="708" selection-end="708" vertical-scroll-proportion="0.7988722">
+        <state line="32" column="14" selection-start="708" selection-end="708" vertical-scroll-proportion="1.2463343">
           <folding />
         </state>
       </provider>
