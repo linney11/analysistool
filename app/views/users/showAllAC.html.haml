@@ -6,6 +6,8 @@
 .container
  %div#container
 
+%p= link_to 'Back to users list', users_path
+
 %table#table
  %thead
   %tr
@@ -21,7 +23,6 @@
 
 %p= show_flash
 
-%p= link_to 'Back to users list', users_path
 
 = javascript_include_tag 'http://code.highcharts.com/stock/highstock.js'
 = javascript_include_tag 'http://code.highcharts.com/stock/modules/exporting.js'
