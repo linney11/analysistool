@@ -96,7 +96,7 @@ class UsersController < ApplicationController
   end
 
 
-  def showAllAC
+  def uploadAC
 
     if !params[:file].nil?
       @file=params[:file]
@@ -104,7 +104,7 @@ class UsersController < ApplicationController
       #validar que sean archivos .json
       chkNameFile=@file.original_filename.split(/\./)
       if chkNameFile[1]=="json"
-        #guardar el archivo en un archivo temporar
+        #guardar el archivo en un archivo temporaL
         f = @file.tempfile.to_path
 
         mylocJson = JSON.parse(File.read(f))

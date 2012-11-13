@@ -1,0 +1,28 @@
+%h1.title Upload File ACJson
+
+= form_tag users_uploadAC_path, :method => :post, :enctype=>"multipart/form-data" do
+ = file_field_tag :file
+ = submit_tag 'Upload'
+
+-if !params[:file].nil?
+ %table#table
+  %thead
+   %tr
+    %th Latitude
+    %th Longitude
+    %th Timestamps
+    %th File
+  %tbody
+   - @activity_counts.each do |gps|
+    %tr
+     %td= gps.latitude
+     %td= gps.longitude
+     %td= gps.time
+     %td= gps.file
+
+
+%p= show_flash
+
+%p= link_to 'Back to users list', users_path
+
+

@@ -9,6 +9,9 @@ Analysistool::Application.routes.draw do
   get "users/upload"
   post "users/upload"
 
+  get "users/uploadAC"
+  post "users/uploadAC"
+
   get "users/showAllAC"
   post "users/showAllAC"
 
