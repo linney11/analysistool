@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bad3602-3c59-49cf-b150-cee4a0d1d471" name="Default" comment="" />
+    <list default="true" id="7bad3602-3c59-49cf-b150-cee4a0d1d471" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/analysistool.iml" afterPath="$PROJECT_DIR$/.idea/analysistool.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/users/index.html.haml" afterPath="$PROJECT_DIR$/app/views/users/index.html.haml" />
+    </list>
     <ignored path="analysistool.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,9 +33,7 @@
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -43,19 +47,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/users/index.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="45" selection-start="681" selection-end="681" vertical-scroll-proportion="-13.730769">
+            <state line="36" column="23" selection-start="740" selection-end="740" vertical-scroll-proportion="1.1396648">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="showAllAC.html.haml" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="showAllAC.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/showAllAC.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.29882812">
+            <state line="26" column="80" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -64,15 +68,8 @@
       <file leaf-file-name="users_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="164" column="10" selection-start="4021" selection-end="4021" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#92#243#0" expanded="false" />
-                <element signature="e#247#329#0" expanded="false" />
-                <element signature="e#333#772#0" expanded="false" />
-                <element signature="e#776#1096#0" expanded="false" />
-                <element signature="e#1100#2422#0" expanded="false" />
-                <element signature="e#2426#2509#0" expanded="false" />
-              </folding>
+            <state line="170" column="19" selection-start="4108" selection-end="4110" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -81,6 +78,15 @@
         <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chart.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/charts/chart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="35" selection-start="455" selection-end="464" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -98,7 +104,7 @@
       <file leaf-file-name="upload.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/upload.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,7 +113,7 @@
       <file leaf-file-name="showAC.html.haml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/users/showAC.html.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="-5.8846154">
+            <state line="9" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -149,11 +155,11 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/char.js" />
         <option value="$PROJECT_DIR$/app/views/locations/index.html.haml" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/views/users/index.html.haml" />
         <option value="$PROJECT_DIR$/app/controllers/users_controller.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/charts/chart.js" />
         <option value="$PROJECT_DIR$/app/views/users/showAC.html.haml" />
         <option value="$PROJECT_DIR$/app/views/users/showAllAC.html.haml" />
+        <option value="$PROJECT_DIR$/app/views/users/index.html.haml" />
       </list>
     </option>
   </component>
@@ -215,7 +221,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -389,6 +394,7 @@
         </subPane>
       </pane>
       <pane id="RailsProjectView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -397,7 +403,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="$USER_HOME$/RubymineProjects/Tarea_1/arrays.rb" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../routes_project" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
@@ -421,7 +427,7 @@
       <recent name="C:\Sites\ejem\app\assets\maps" />
     </key>
   </component>
-  <component name="RunManager" selected="Ruby.users_controller">
+  <component name="RunManager" selected="Rails.Development: analysistool">
     <configuration default="false" name="db:migrate" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
       <module name="analysistool" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -720,15 +726,15 @@
       <method />
     </configuration>
     <list size="9">
-      <item index="0" class="java.lang.String" itemvalue="Rake.test" />
-      <item index="1" class="java.lang.String" itemvalue="Rake.spec" />
-      <item index="2" class="java.lang.String" itemvalue="Rails.Production: analysistool" />
-      <item index="3" class="java.lang.String" itemvalue="Rails.Development: analysistool" />
-      <item index="4" class="java.lang.String" itemvalue="Rake.db:migrate" />
-      <item index="5" class="java.lang.String" itemvalue="Rake.routes" />
-      <item index="6" class="java.lang.String" itemvalue="IRB console.IRB console" />
-      <item index="7" class="java.lang.String" itemvalue="Ruby.location" />
-      <item index="8" class="java.lang.String" itemvalue="Ruby.users_controller" />
+      <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate" />
+      <item index="1" class="java.lang.String" itemvalue="Rake.routes" />
+      <item index="2" class="java.lang.String" itemvalue="IRB console.IRB console" />
+      <item index="3" class="java.lang.String" itemvalue="Ruby.location" />
+      <item index="4" class="java.lang.String" itemvalue="Ruby.users_controller" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.test" />
+      <item index="6" class="java.lang.String" itemvalue="Rake.spec" />
+      <item index="7" class="java.lang.String" itemvalue="Rails.Production: analysistool" />
+      <item index="8" class="java.lang.String" itemvalue="Rails.Development: analysistool" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -818,24 +824,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761577" sideWeight="0.4969697" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761577" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19545455" sideWeight="0.6723842" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761577" sideWeight="0.4909091" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761577" sideWeight="0.49772727" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19469696" sideWeight="0.32418525" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57471263" sideWeight="0.49359658" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21546052" sideWeight="0.47878787" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32894737" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19545455" sideWeight="0.6723842" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19469696" sideWeight="0.66380787" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22203948" sideWeight="0.48030302" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20681818" sideWeight="0.4868421" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20681818" sideWeight="0.50164473" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.68421054" sideWeight="0.5265151" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.68421054" sideWeight="0.46818182" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57471263" sideWeight="0.49359658" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761577" sideWeight="0.4969697" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32761577" sideWeight="0.4909091" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2236842" sideWeight="0.46363637" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -898,9 +904,7 @@
   <component name="editorHistoryManager">
     <entry file="file://C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.2.8/lib/action_view/helpers/asset_tag_helpers/javascript_tag_helpers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="185" column="0" selection-start="9637" selection-end="9637" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="185" column="0" selection-start="9637" selection-end="9637" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="dbDummy://dbElement:/f0217e09/6f27130f-467f-4168-baf7-2c2f05e2f9e1/..activity_counts">
@@ -910,17 +914,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="0" selection-start="2336" selection-end="2336" vertical-scroll-proportion="0.81040895">
-          <folding />
-        </state>
+        <state line="131" column="0" selection-start="2336" selection-end="2336" vertical-scroll-proportion="0.81040895" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -933,16 +933,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/locations/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="25" selection-start="918" selection-end="918" vertical-scroll-proportion="0.43554688">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.haml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="45" selection-start="681" selection-end="681" vertical-scroll-proportion="-13.730769">
-          <folding />
-        </state>
+        <state line="34" column="25" selection-start="918" selection-end="918" vertical-scroll-proportion="0.43554688" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
@@ -959,30 +950,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="20" selection-start="303" selection-end="303" vertical-scroll-proportion="0.47397768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="164" column="10" selection-start="4021" selection-end="4021" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#92#243#0" expanded="false" />
-            <element signature="e#247#329#0" expanded="false" />
-            <element signature="e#333#772#0" expanded="false" />
-            <element signature="e#776#1096#0" expanded="false" />
-            <element signature="e#1100#2422#0" expanded="false" />
-            <element signature="e#2426#2509#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/charts/chart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="21" selection-start="771" selection-end="771" vertical-scroll-proportion="0.832853">
-          <folding />
-        </state>
+        <state line="15" column="20" selection-start="303" selection-end="303" vertical-scroll-proportion="0.47397768" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/locations_controller.rb">
@@ -1001,14 +969,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/showAC.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="-5.8846154">
+        <state line="9" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/users/showAllAC.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="138" selection-end="138" vertical-scroll-proportion="0.29882812">
+        <state line="26" column="80" selection-start="406" selection-end="406" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/charts/chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="35" selection-start="455" selection-end="464" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/users_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="170" column="19" selection-start="4108" selection-end="4110" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/users/index.html.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="23" selection-start="740" selection-end="740" vertical-scroll-proportion="1.1396648">
           <folding />
         </state>
       </provider>
